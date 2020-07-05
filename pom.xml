@@ -13,7 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>OnboardingEmployees</name>
 	<description>Onboarding employees project for Spring Boot</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

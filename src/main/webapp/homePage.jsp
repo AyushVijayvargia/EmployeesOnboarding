@@ -4,22 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>CompanyPortal</title>
 </head>
 <body>
-
-	<form method="post" action="home11">
-	<h1>Insert new record: ID : <input type="number" name="id" /> NAME : <input
-			type="text" name="name" /> <input type="submit" value="INSERT" /> </h1>
-	</form>
-	<form method="post" action="home12">
-		<h2>Tell ID to delete: <input type="text" name="name" />  <input type="submit"value="DELETE" /></h2>
-	</form>
-	<form method="post" action="home123">
-		<h2><input type="submit" value="DISPLAY ALL RECORDS"/></h2>
-	</form>
-	<form method="post" action="home1234">
-		<h1>Search Record by ID: <input type="text" name="name" /> <input type="submit" value="SEARCH"/></h1>
+	<form method="post" action="saveData">
+	<h1>Insert new record</h1>
+	<br> 
+	<h2> ID : <input type="number" name="id" /> 
+	<br>
+	NAME : <input type="text" name="name" /> 
+	<br>
+	EmailId : <input type="text" name="email" />
+	<input type="submit" value="INSERT" /> </h2>
 	</form>
 </body>
 </html>
